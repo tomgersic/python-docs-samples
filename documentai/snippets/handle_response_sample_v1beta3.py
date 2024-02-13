@@ -51,7 +51,7 @@ def process_document_summarizer_sample(
         documentai.DocumentSchema.EntityType.Property(
             name="summary",
             value_type="string",
-            occurence_type=documentai.DocumentSchema.EntityType.Property.OccurenceType.REQUIRED_ONCE,
+            occurrence_type=documentai.DocumentSchema.EntityType.Property.OccurrenceType.REQUIRED_ONCE,
             property_metadata=documentai.PropertyMetadata(
                 field_extraction_metadata=documentai.FieldExtractionMetadata(
                     summary_options=summary_options
